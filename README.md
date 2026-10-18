@@ -1,5 +1,16 @@
 # Google Cloud roadmap and tutorial library
 
+[![Google Cloud](https://img.shields.io/badge/Google_Cloud-Learning_Roadmap-4285F4?style=flat-square&logo=googlecloud&logoColor=white)](ROADMAP.md)
+[![Tutorials](https://img.shields.io/badge/Tutorials-92-34A853?style=flat-square)](COVERAGE.md)
+[![Domains](https://img.shields.io/badge/Domains-14-FBBC05?style=flat-square)](roadmaps/README.md)
+[![Capstones](https://img.shields.io/badge/Capstone_Projects-4-EA4335?style=flat-square)](roadmaps/14-capstones.md)
+
+[![GitHub stars](https://img.shields.io/github/stars/hareramray/gcp-roadmap?style=flat-square&logo=github)](https://github.com/hareramray/gcp-roadmap/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/hareramray/gcp-roadmap?style=flat-square&logo=github)](https://github.com/hareramray/gcp-roadmap/forks)
+[![Last commit](https://img.shields.io/github/last-commit/hareramray/gcp-roadmap?style=flat-square)](https://github.com/hareramray/gcp-roadmap/commits/main/)
+[![GitHub issues](https://img.shields.io/github/issues/hareramray/gcp-roadmap?style=flat-square)](https://github.com/hareramray/gcp-roadmap/issues)
+[![Sponsor on GitHub](https://img.shields.io/badge/Sponsor-GitHub-EA4AAA?style=flat-square&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/hareramray)
+
 A practical curriculum from first cloud concepts to production architecture, operations, data engineering, and AI. Start with the foundations, build small systems, then specialize. The material is written for a learner who wants to understand **why a service is chosen, how to use it, how to verify it, and how to operate it**.
 
 The library contains **92 tutorials across 14 domains**, including four capstone projects, plus study plans, a progress checklist, service comparisons, a glossary, and review questions. The [coverage map](COVERAGE.md) links every topic to its tutorial.
@@ -57,3 +68,11 @@ Google Cloud contains a changing catalog of services and configuration options. 
 - Do not commit passwords, private keys, access tokens, production data, or Terraform state.
 
 The primary discovery reference is the [Google Cloud documentation catalog](https://docs.cloud.google.com/docs); each tutorial includes more specific sources.
+
+## Support and contribute
+
+If this roadmap helps you, [star the repository](https://github.com/hareramray/gcp-roadmap), share it with another learner, or [sponsor Hareram on GitHub](https://github.com/sponsors/hareramray).
+
+Found an outdated command, broken link, or missing explanation? [Open an issue](https://github.com/hareramray/gcp-roadmap/issues/new) with the tutorial path, the problem, and an official reference when available. Contributions that improve examples, accessibility, accuracy, and topic coverage are welcome. Follow the [source and maintenance guidance](SOURCES.md) and run `node tools/check-docs.mjs` before submitting a pull request.
+
+Maintained by [Hareram](https://github.com/hareramray). This is an independent learning resource and is not affiliated with or endorsed by Google.
